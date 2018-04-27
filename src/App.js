@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 const notesClient = axios.create({
-    baseURL: 'http://0.0.0.0:8000/api/notes',
+    baseURL: ' https://djorg-pim.herokuapp.com/:8000/api/notes',
     timeout: 1000
 });
 
